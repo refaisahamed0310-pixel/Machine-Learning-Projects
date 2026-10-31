@@ -1,43 +1,116 @@
 # Machine Learning Projects
 
-A collection of beginner-friendly Machine Learning notebooks using Python, Pandas, Seaborn, Matplotlib and Scikit-learn.
+A collection of hands-on Machine Learning projects developed using **Python and Scikit-learn**, covering predictive modeling, classification, regression, data preprocessing, exploratory data analysis, and dimensionality reduction.
+
+This repository showcases practical implementation of Machine Learning concepts through Jupyter Notebook projects, demonstrating the workflow from data preparation and visualization to model training and evaluation.
 
 ## Projects
 
-1. **Diabetes Prediction** — classification experiments using Decision Tree, Random Forest and SVC.
-2. **House Price Prediction** — regression using Linear Regression.
-3. **Insurance Classification** — classification experiment using Decision Tree.
-4. **Loan Eligibility Prediction** — classification using Random Forest.
-5. **Heart Disease Prediction** — classification using Decision Tree.
-6. **Pokémon PCA Analysis** — dimensionality reduction and comparison of classification models.
+| # | Project | Description | Algorithms / Techniques |
+|---|---|---|---|
+| 01 | **Diabetes Prediction** | Predicts diabetes outcomes using medical and diagnostic attributes. | Decision Tree, Random Forest, Support Vector Classifier |
+| 02 | **House Price Prediction** | Estimates house prices based on property-related features. | Linear Regression |
+| 03 | **Insurance Classification** | Performs classification using customer insurance information. | Decision Tree |
+| 04 | **Loan Eligibility Prediction** | Predicts loan approval eligibility based on applicant details. | Random Forest |
+| 05 | **Heart Disease Prediction** | Classifies heart disease outcomes using clinical attributes. | Decision Tree |
+| 06 | **Pokémon PCA Analysis** | Explores Pokémon data through dimensionality reduction and classification model comparisons. | PCA, Random Forest, Decision Tree, SVC, KNN, Gaussian Naive Bayes |
 
-## Repository structure
+## Technologies & Tools
 
-Each project has its own folder and notebook. The original notebook workflow, algorithms, variable naming style and analysis approach have been retained. Only targeted code-quality and compatibility fixes were applied.
+- **Programming Language:** Python
+- **Data Manipulation:** Pandas, NumPy
+- **Data Preprocessing:** Data Cleaning, Handling Missing Values, Feature Encoding, Feature Scaling
+- **Data Visualization:** Matplotlib, Seaborn
+- **Machine Learning:** Scikit-learn
+- **Development Environments:** Jupyter Notebook, Google Colab
 
-## Datasets
+## Key Machine Learning Concepts
 
-The CSV datasets are not included in this repository. Add the required dataset to the relevant project folder before running its notebook:
+- Data preprocessing and cleaning
+- Exploratory Data Analysis (EDA)
+- Handling missing values
+- Categorical feature encoding
+- Feature selection and transformation
+- Training and testing data separation
+- Classification and regression
+- Dimensionality reduction using PCA
+- Model evaluation and performance analysis
 
-- `diabetes.csv`
-- `kc_house_data.csv`
-- `insurance.csv`
-- `loan-train.csv`
-- `dataset.csv`
-- `Pokemon.csv`
+## Repository Structure
 
-Dataset filenames and availability may vary depending on the source from which you obtained them.
+```text
+Machine-Learning-Projects/
+│
+├── House-Price-Prediction/
+│   └── house_price_prediction.ipynb
+│
+├── Insurance-Classification/
+│   └── insurance_classification.ipynb
+│
+├── diabetes_prediction.ipynb
+├── heart_disease_prediction.ipynb
+├── loan_eligibility_prediction.ipynb
+├── pokemon_pca_analysis.ipynb
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
 
-## Requirements
+## Getting Started
 
-Install the common dependencies:
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/refaisahamed0310-pixel/Machine-Learning-Projects.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Machine-Learning-Projects
+```
+
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Then open a notebook with Jupyter Notebook, JupyterLab or Google Colab.
+### 4. Run the notebooks
 
-## Notes
+Open the notebooks using Jupyter Notebook, JupyterLab, or Google Colab.
 
-These are learning and portfolio projects. Model performance depends on the dataset, preprocessing and train/test split. Results should be re-evaluated when running the notebooks with your own dataset copies.
+## Dataset Information
+
+The datasets are not included in this repository. Download the corresponding datasets separately and place them in the appropriate working directories before running the notebooks.
+
+| Project | Required Dataset |
+|---|---|
+| Diabetes Prediction | `diabetes.csv` |
+| House Price Prediction | `kc_house_data.csv` |
+| Insurance Classification | `insurance.csv` |
+| Loan Eligibility Prediction | `loan-train.csv` |
+| Heart Disease Prediction | `dataset.csv` |
+| Pokémon PCA Analysis | `Pokemon.csv` |
+
+## Project Objectives
+
+- Strengthen practical knowledge of Machine Learning algorithms.
+- Understand data preprocessing and feature engineering techniques.
+- Explore datasets through statistical analysis and visualization.
+- Implement classification, regression, and dimensionality reduction.
+- Develop skills in model training, testing, and evaluation.
+
+## Author
+
+**Ahamed Refai S**
+
+Computer Science Graduate | Python Developer | AI & Machine Learning | Data Science | Backend Development
+
+- **GitHub:** [refaisahamed0310-pixel](https://github.com/refaisahamed0310-pixel)
+- **LinkedIn:** [Ahamed Refai S](https://www.linkedin.com/in/ahamed-refai-s-6775b2310)
+
+---
+
+*Building practical solutions and continuously exploring the world of Machine Learning and Artificial Intelligence.*
